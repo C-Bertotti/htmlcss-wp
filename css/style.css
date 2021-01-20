@@ -14,6 +14,17 @@ body {
   display: block;
   clear: both;
 }
+
+.overlay::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
 /* /general */
 
 /* container */
@@ -57,11 +68,34 @@ header {
 /* /header */
 
 /* main */
+.hero {
+  position: relative;
+}
+
 .hero img {
   height: 450px;
   object-fit: cover;
   width: 100%;
   border-radius: 15px;
+}
+
+.hero-heading {
+  position: absolute;
+  bottom: 70px;
+  left: 60px;
+  color: white;
+  max-width: 65%;
+  z-index: 2;
+}
+
+.hero-heading h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.hero-heading p {
+  font-weight: 300;
+  font-size: 17px;
 }
 /* /main */
 
