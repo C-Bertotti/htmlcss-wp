@@ -27,6 +27,14 @@ body {
 }
 /* /general */
 
+/* typo */
+p {
+  font-weight: 300;
+  font-size: 17px;
+  color: #858585;
+}
+/* /typo */
+
 /* container */
 .container {
   width: 80%;
@@ -35,9 +43,6 @@ body {
 /* /container */
 
 /* header */
-header {
-  margin: 3% 0;
-}
 
 #neorilogo {
   width: 10%;
@@ -53,13 +58,13 @@ header {
 }
 
 .mainnav a {
-  color: #858585;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
   display: inline-block;
   padding: 0 5px;
   font-size: 15px;
+  color: #858585;
 }
 
 .mainnav a:first-child {
@@ -83,7 +88,7 @@ header {
   position: absolute;
   bottom: 70px;
   left: 60px;
-  color: white;
+  color: #fff;
   max-width: 65%;
   z-index: 2;
 }
@@ -94,19 +99,19 @@ header {
 }
 
 .hero-heading p {
-  font-weight: 300;
-  font-size: 17px;
+  color: #fff;
 }
+
 /* /main */
 
 /* section */
-section.leadership {
-  background-color: blue;
+section {
+  margin: 3% 0;
 }
 
-.section-heading {
-  height: 70px;
-  background-color: lightblue;
+.section-heading h2 {
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .leadership .row {
