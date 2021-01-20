@@ -86,7 +86,7 @@ p {
   height: 450px;
 }
 
-.images {
+.fit-images {
   object-fit: cover;
   width: 100%;
   height: 100%;
