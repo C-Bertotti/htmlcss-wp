@@ -15,7 +15,7 @@ body {
   clear: both;
 }
 
-.overlay {
+.overlay::after {
   content: "";
   position: absolute;
   left: 0;
