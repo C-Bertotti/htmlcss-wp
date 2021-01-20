@@ -29,7 +29,7 @@ header {
 }
 
 #neorilogo {
-  width: 15%;
+  width: 10%;
 }
 
 .mainnav {
@@ -47,15 +47,21 @@ header {
   text-transform: uppercase;
   font-weight: 300;
   display: inline-block;
-  padding-right: 10px;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.mainnav a:first-child {
+  padding-left: 0;
 }
 /* /header */
 
 /* main */
-.hero {
-  height: 73vh;
-  background-color: khaki;
-  margin-bottom: 3vh;
+.hero img {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
 }
 /* /main */
 
