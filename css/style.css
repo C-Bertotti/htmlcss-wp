@@ -1,0 +1,72 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /general */
+
+/* container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* /container */
+
+/* header */
+header {
+  height: 15vh;
+  background-color: pink;
+  margin: 3vh 0;
+}
+/* /header */
+
+/* main */
+.hero {
+  height: 76vh;
+  background-color: khaki;
+  margin-bottom: 3vh;
+}
+/* /main */
+
+/* section */
+section.leadership {
+  background-color: blue;
+}
+
+.section-heading {
+  height: 70px;
+  background-color: lightblue;
+}
+
+.leadership .row {
+  padding: 15px 0;
+}
+
+.col.left, .col.right {
+  width: 25%;
+}
+.col.center {
+  margin: 0 10px;
+  width: calc(50% - 20px);
+}
+
+.row > .col {
+  float: left;
+  background-color: lightblue;
+  height: 500px;
+}
+/* /section */
+
+/*footer */
+footer {
+  height: 50px;
+  background-color: blueviolet;
+  margin: 10px 0 20px;
+}
