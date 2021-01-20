@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -21,15 +25,35 @@
 
 /* header */
 header {
-  height: 15vh;
-  background-color: pink;
-  margin: 3vh 0;
+  margin: 3% 0;
+}
+
+#neorilogo {
+  width: 15%;
+}
+
+.mainnav {
+  margin-top: 2%;
+}
+
+.mainnav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.mainnav a {
+  color: #858585;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  padding-right: 10px;
 }
 /* /header */
 
 /* main */
 .hero {
-  height: 76vh;
+  height: 73vh;
   background-color: khaki;
   margin-bottom: 3vh;
 }
